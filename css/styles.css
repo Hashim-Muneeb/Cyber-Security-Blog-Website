@@ -1,0 +1,231 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #470ae3
+}
+
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid {
+  padding: 10% 10%;
+}
+
+
+.colored-section {
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  padding-top: 15px;
+
+}
+
+#title {
+  background-image: url(/images/mm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 15% 20%;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.oo {
+  text-align: center;
+  color: white;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+#blog {
+  background-color: #4a95b5;
+}
+
+#about {
+  background-color: #4a95b5;
+}
+
+
+.blog-text {
+  font-size: 1.7rem;
+  line-height: 1;
+  padding-top: 10px;
+  color: white;
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 60px;
+  margin: 0 10px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  left: 5px;
+  bottom: 5px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+input:checked+.slider {
+  background-color: #340dcf;
+}
+
+input:checked+.slider:before {
+  transform: translate(50px);
+}
+
+.hy{
+  padding: 50px;
+  height: 400px;
+  width: 400px;
+  /* display: none; */
+}
+.aa {
+  color: white;
+  font-size: 2rem;
+}
+
+.containers {
+  padding-top: 5%;
+
+}
+
+.ww {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.vv {
+  padding-top: 20px;
+  font-size: 3rem;
+}
+
+li {
+  display: block;
+  padding: 15px;
+}
+
+.hh {
+  padding: 10% 10%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.jj {
+  background-color: #0ab6ff;
+  width: 400px;
+  height: 430px;
+  transition: background-color 0.5s ease-in-out;
+}
+.fr{
+  height: 400px;
+  width: 400px;
+}
+.yy {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: red;
+  font-weight: bold;
+}
+
+#blog.dark-mode {
+  background-color: #021233;
+}
+
+
+#about.dark-mode {
+  background-color: #021233;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+}
